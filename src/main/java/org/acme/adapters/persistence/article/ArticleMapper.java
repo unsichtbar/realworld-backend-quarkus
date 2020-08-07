@@ -2,9 +2,7 @@ package org.acme.adapters.persistence.article;
 
 import java.util.Collections;
 import java.util.stream.Collectors;
-
 import javax.enterprise.context.ApplicationScoped;
-
 import org.acme.adapters.persistence.tag.TagJpaEntity;
 import org.acme.application.model.Article;
 import org.acme.application.model.Profile;

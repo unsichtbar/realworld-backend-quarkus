@@ -1,5 +1,6 @@
 package org.acme.application.services.userprofile;
 
+import java.util.Optional;
 import org.acme.application.exceptions.EmailAreadyTakenException;
 import org.acme.application.exceptions.UsernameAlreadyTakenException;
 import org.acme.application.model.User;
@@ -7,8 +8,6 @@ import org.acme.application.ports.in.RegisterUserUseCase;
 import org.acme.application.ports.out.AuthPort;
 import org.acme.application.ports.out.GetUserPort;
 import org.acme.application.ports.out.SaveUserPort;
-import java.util.Optional;
-import javax.validation.ConstraintViolationException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

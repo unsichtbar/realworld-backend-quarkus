@@ -3,12 +3,12 @@ package org.acme.application.services.article;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
+import java.util.Optional;
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.model.Article;
 import org.acme.application.ports.in.EditArticleUseCase;
 import org.acme.application.ports.out.LoadArticlePort;
 import org.acme.application.ports.out.UpdateArticlePort;
-import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

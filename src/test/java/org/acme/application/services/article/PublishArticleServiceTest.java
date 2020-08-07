@@ -1,5 +1,6 @@
 package org.acme.application.services.article;
 
+import java.util.Optional;
 import org.acme.application.exceptions.ArticleAlreadyExistsException;
 import org.acme.application.model.Article;
 import org.acme.application.model.Profile;
@@ -7,7 +8,6 @@ import org.acme.application.model.User;
 import org.acme.application.ports.in.PublishArticleUseCase;
 import org.acme.application.ports.out.LoadArticlePort;
 import org.acme.application.ports.out.SaveArticlePort;
-import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

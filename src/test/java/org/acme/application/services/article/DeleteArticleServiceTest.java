@@ -4,7 +4,6 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import java.util.Optional;
-
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.model.Article;
 import org.acme.application.ports.out.DeleteArticlePort;
@@ -16,8 +15,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-
 
 @ExtendWith(MockitoExtension.class)
 @DisplayName("Delete Article Service")

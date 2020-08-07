@@ -1,7 +1,7 @@
 package org.acme.application.ports.out;
 
-import org.acme.application.model.User;
 import javax.security.auth.login.LoginException;
+import org.acme.application.model.User;
 
 public interface AuthPort {
 

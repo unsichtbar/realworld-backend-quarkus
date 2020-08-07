@@ -3,11 +3,11 @@ package org.acme.application.services.userprofile;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
+import java.util.Optional;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
 import org.acme.application.ports.in.GetProfileQuery;
 import org.acme.application.ports.out.SaveFollowRelationPort;
-import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

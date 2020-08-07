@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.model.Article;
 import org.acme.application.model.Profile;
@@ -17,8 +16,6 @@ import org.acme.application.ports.out.LoadArticleFavoriteCountPort;
 import org.acme.application.ports.out.LoadArticleFavoritedPort;
 import org.acme.application.ports.out.LoadArticlePort;
 import org.acme.application.ports.out.LoadRecentArticlesPort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor

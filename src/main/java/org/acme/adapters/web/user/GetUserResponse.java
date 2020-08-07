@@ -1,7 +1,6 @@
 package org.acme.adapters.web.user;
 
 import java.io.Serializable;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

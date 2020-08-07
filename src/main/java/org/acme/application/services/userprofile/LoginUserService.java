@@ -3,14 +3,12 @@ package org.acme.application.services.userprofile;
 import javax.enterprise.context.ApplicationScoped;
 import javax.security.auth.login.FailedLoginException;
 import javax.security.auth.login.LoginException;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.exceptions.UserNotFoundException;
 import org.acme.application.model.User;
 import org.acme.application.ports.in.LoginUserUseCase;
 import org.acme.application.ports.out.AuthPort;
 import org.acme.application.ports.out.GetUserPort;
-
-import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped

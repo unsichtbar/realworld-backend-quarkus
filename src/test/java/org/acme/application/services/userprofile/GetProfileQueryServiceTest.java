@@ -2,10 +2,10 @@ package org.acme.application.services.userprofile;
 
 import static org.mockito.Mockito.when;
 
+import java.util.Optional;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
 import org.acme.application.ports.out.LoadProfilePort;
-import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

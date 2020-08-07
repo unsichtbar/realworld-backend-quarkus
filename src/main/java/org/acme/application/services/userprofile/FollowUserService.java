@@ -1,16 +1,13 @@
 package org.acme.application.services.userprofile;
 
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
 import org.acme.application.ports.in.FollowUserUseCase;
 import org.acme.application.ports.in.GetProfileQuery;
 import org.acme.application.ports.out.SaveFollowRelationPort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor

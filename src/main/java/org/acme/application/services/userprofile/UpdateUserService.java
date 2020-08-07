@@ -1,10 +1,9 @@
 package org.acme.application.services.userprofile;
 
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
 import javax.transaction.Transactional;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.exceptions.EmailAreadyTakenException;
 import org.acme.application.exceptions.UserNotFoundException;
 import org.acme.application.exceptions.UsernameAlreadyTakenException;
@@ -13,8 +12,6 @@ import org.acme.application.ports.in.UpdateUserUseCase;
 import org.acme.application.ports.out.AuthPort;
 import org.acme.application.ports.out.GetUserPort;
 import org.acme.application.ports.out.UpdateUserPort;
-
-import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped

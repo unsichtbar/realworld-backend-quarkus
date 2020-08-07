@@ -1,10 +1,10 @@
 package org.acme.application.ports.in;
 
+import java.util.List;
+import lombok.*;
 import org.acme.application.exceptions.ArticleAlreadyExistsException;
 import org.acme.application.model.Article;
 import org.acme.application.model.User;
-import java.util.List;
-import lombok.*;
 
 public interface PublishArticleUseCase {
 

@@ -1,7 +1,7 @@
 package org.acme.application.ports.out;
 
-import org.acme.application.model.Article;
 import java.util.Optional;
+import org.acme.application.model.Article;
 
 public interface LoadArticlePort {
   Optional<Article> findArticle(String slug);

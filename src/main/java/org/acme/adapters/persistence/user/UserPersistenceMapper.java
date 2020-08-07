@@ -1,7 +1,6 @@
 package org.acme.adapters.persistence.user;
 
 import javax.enterprise.context.ApplicationScoped;
-
 import org.acme.application.model.User;
 
 @ApplicationScoped

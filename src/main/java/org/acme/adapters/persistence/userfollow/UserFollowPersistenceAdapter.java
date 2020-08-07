@@ -1,14 +1,12 @@
 package org.acme.adapters.persistence.userfollow;
 
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.adapters.persistence.user.UserJpaEntity;
 import org.acme.adapters.persistence.user.UserRepository;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
 import org.acme.application.ports.out.SaveFollowRelationPort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor

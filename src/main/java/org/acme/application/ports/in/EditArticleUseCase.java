@@ -1,11 +1,10 @@
 package org.acme.application.ports.in;
 
-import org.acme.application.exceptions.ArticleNotFoundException;
-import org.acme.application.model.Article;
-
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
+import org.acme.application.exceptions.ArticleNotFoundException;
+import org.acme.application.model.Article;
 
 public interface EditArticleUseCase {
 
@@ -16,8 +15,8 @@ public interface EditArticleUseCase {
   class EditArticleCommand {
     @NonNull private Integer id;
 
-     private String title;
-     private String description;
-     private String body;
+    private String title;
+    private String description;
+    private String body;
   }
 }

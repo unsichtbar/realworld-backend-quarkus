@@ -1,14 +1,14 @@
 package org.acme.adapters.persistence.article;
 
-import org.acme.adapters.persistence.Audit;
-import org.acme.adapters.persistence.tag.TagJpaEntity;
-import org.acme.adapters.persistence.user.UserJpaEntity;
 import java.util.List;
 import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.acme.adapters.persistence.Audit;
+import org.acme.adapters.persistence.tag.TagJpaEntity;
+import org.acme.adapters.persistence.user.UserJpaEntity;
 
 @Entity
 @Table

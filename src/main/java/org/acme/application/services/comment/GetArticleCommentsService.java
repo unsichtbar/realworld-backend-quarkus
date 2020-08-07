@@ -2,16 +2,13 @@ package org.acme.application.services.comment;
 
 import java.util.Collection;
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.model.Comment;
 import org.acme.application.model.User;
 import org.acme.application.ports.in.GetArticleCommentsQuery;
 import org.acme.application.ports.in.GetProfileQuery;
 import org.acme.application.ports.out.LoadCommentPort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor

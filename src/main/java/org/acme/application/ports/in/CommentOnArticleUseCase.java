@@ -1,13 +1,12 @@
 package org.acme.application.ports.in;
 
+import lombok.Builder;
+import lombok.Data;
+import lombok.NonNull;
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.exceptions.UserNotFoundException;
 import org.acme.application.model.Comment;
 import org.acme.application.model.User;
-
-import lombok.Builder;
-import lombok.Data;
-import lombok.NonNull;
 
 public interface CommentOnArticleUseCase {
 

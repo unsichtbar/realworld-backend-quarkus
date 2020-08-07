@@ -1,10 +1,9 @@
 package org.acme.adapters.persistence.user;
 
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
 import javax.persistence.EntityNotFoundException;
-
+import lombok.AllArgsConstructor;
 import org.acme.adapters.persistence.userfollow.UserFollowRepository;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
@@ -12,8 +11,6 @@ import org.acme.application.ports.out.GetUserPort;
 import org.acme.application.ports.out.LoadProfilePort;
 import org.acme.application.ports.out.SaveUserPort;
 import org.acme.application.ports.out.UpdateUserPort;
-
-import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped

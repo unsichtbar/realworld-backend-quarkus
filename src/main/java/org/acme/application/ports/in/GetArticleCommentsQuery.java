@@ -1,8 +1,8 @@
 package org.acme.application.ports.in;
 
+import java.util.Collection;
 import org.acme.application.model.Comment;
 import org.acme.application.model.User;
-import java.util.Collection;
 
 public interface GetArticleCommentsQuery {
 

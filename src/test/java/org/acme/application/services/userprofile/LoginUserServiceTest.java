@@ -3,13 +3,13 @@ package org.acme.application.services.userprofile;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
+import java.util.Optional;
+import javax.security.auth.login.FailedLoginException;
+import javax.security.auth.login.LoginException;
 import org.acme.application.exceptions.UserNotFoundException;
 import org.acme.application.model.User;
 import org.acme.application.ports.out.AuthPort;
 import org.acme.application.ports.out.GetUserPort;
-import java.util.Optional;
-import javax.security.auth.login.FailedLoginException;
-import javax.security.auth.login.LoginException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

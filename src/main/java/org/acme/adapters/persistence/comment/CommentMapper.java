@@ -1,7 +1,6 @@
 package org.acme.adapters.persistence.comment;
 
 import javax.enterprise.context.ApplicationScoped;
-
 import org.acme.application.model.Comment;
 import org.acme.application.model.CommentId;
 

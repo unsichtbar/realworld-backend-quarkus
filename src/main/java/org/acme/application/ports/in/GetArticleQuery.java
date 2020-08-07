@@ -1,9 +1,9 @@
 package org.acme.application.ports.in;
 
-import org.acme.application.model.Article;
-import org.acme.application.model.User;
 import java.util.List;
 import java.util.Optional;
+import org.acme.application.model.Article;
+import org.acme.application.model.User;
 
 public interface GetArticleQuery {
 

@@ -1,8 +1,8 @@
 package org.acme.application.ports.out;
 
-import org.acme.application.model.Article;
 import java.util.Collection;
 import java.util.Optional;
+import org.acme.application.model.Article;
 
 public interface LoadRecentArticlesPort {
 

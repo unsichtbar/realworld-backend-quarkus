@@ -1,14 +1,12 @@
 package org.acme.application.services.article;
 
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.model.Article;
 import org.acme.application.ports.in.DeleteArticleUseCase;
 import org.acme.application.ports.out.DeleteArticlePort;
 import org.acme.application.ports.out.LoadArticlePort;
-
-import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped

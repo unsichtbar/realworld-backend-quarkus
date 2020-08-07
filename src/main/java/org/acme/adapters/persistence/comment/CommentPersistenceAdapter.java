@@ -4,9 +4,8 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.adapters.persistence.user.UserRepository;
 import org.acme.application.model.Comment;
 import org.acme.application.model.CommentId;
@@ -14,8 +13,6 @@ import org.acme.application.ports.out.DeleteCommentPort;
 import org.acme.application.ports.out.LoadCommentPort;
 import org.acme.application.ports.out.LoadProfilePort;
 import org.acme.application.ports.out.SaveCommentPort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor
@@ -71,6 +68,6 @@ class CommentPersistenceAdapter implements DeleteCommentPort, LoadCommentPort, S
   @Override
   public Comment save(Comment input) {
     return input; // TODO actually save this
-    //return this.repository.save(this.mapper.);
+    // return this.repository.save(this.mapper.);
   }
 }

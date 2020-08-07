@@ -1,9 +1,9 @@
 package org.acme.adapters.persistence.comment;
 
-import org.acme.adapters.persistence.Audit;
-import org.acme.adapters.persistence.article.ArticleJpaEntity;
 import javax.persistence.*;
 import lombok.Data;
+import org.acme.adapters.persistence.Audit;
+import org.acme.adapters.persistence.article.ArticleJpaEntity;
 
 @Entity
 @Data

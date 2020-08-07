@@ -1,15 +1,13 @@
 package org.acme.application.services.article;
 
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.application.exceptions.ArticleAlreadyExistsException;
 import org.acme.application.model.Article;
 import org.acme.application.model.Profile;
 import org.acme.application.ports.in.PublishArticleUseCase;
 import org.acme.application.ports.out.LoadArticlePort;
 import org.acme.application.ports.out.SaveArticlePort;
-
-import lombok.AllArgsConstructor;
 
 @ApplicationScoped
 @AllArgsConstructor

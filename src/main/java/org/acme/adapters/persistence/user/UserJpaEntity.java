@@ -1,9 +1,9 @@
 package org.acme.adapters.persistence.user;
 
-import org.acme.adapters.persistence.article.ArticleJpaEntity;
 import java.util.List;
 import javax.persistence.*;
 import lombok.*;
+import org.acme.adapters.persistence.article.ArticleJpaEntity;
 
 @Entity
 @AllArgsConstructor

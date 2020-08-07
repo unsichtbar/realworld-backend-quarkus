@@ -18,10 +18,10 @@ public class UserUpdatePayload {
   @NoArgsConstructor
   @Builder
   public static class User {
-     private String email;
-     private String password;
-     private String username;
-     private String bio;
-     private String image;
+    private String email;
+    private String password;
+    private String username;
+    private String bio;
+    private String image;
   }
 }

@@ -1,5 +1,8 @@
 package org.acme.application.services.article;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
 import org.acme.application.model.Article;
 import org.acme.application.model.Profile;
 import org.acme.application.model.User;
@@ -8,9 +11,6 @@ import org.acme.application.ports.out.LoadArticleFavoriteCountPort;
 import org.acme.application.ports.out.LoadArticleFavoritedPort;
 import org.acme.application.ports.out.LoadArticlePort;
 import org.acme.application.ports.out.LoadRecentArticlesPort;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

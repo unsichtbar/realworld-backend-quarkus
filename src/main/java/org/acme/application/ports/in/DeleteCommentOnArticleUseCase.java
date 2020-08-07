@@ -1,12 +1,12 @@
 package org.acme.application.ports.in;
 
+import lombok.Builder;
+import lombok.Data;
 import org.acme.application.exceptions.ArticleNotFoundException;
 import org.acme.application.exceptions.CommentNotFoundException;
 import org.acme.application.model.Comment;
 import org.acme.application.model.CommentId;
 import org.acme.application.model.User;
-import lombok.Builder;
-import lombok.Data;
 
 public interface DeleteCommentOnArticleUseCase {
 

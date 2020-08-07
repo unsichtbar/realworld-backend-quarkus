@@ -3,9 +3,8 @@ package org.acme.adapters.persistence.article;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Optional;
-
 import javax.enterprise.context.ApplicationScoped;
-
+import lombok.AllArgsConstructor;
 import org.acme.adapters.persistence.user.UserJpaEntity;
 import org.acme.adapters.persistence.user.UserPersistenceMapper;
 import org.acme.adapters.persistence.user.UserRepository;
@@ -18,8 +17,6 @@ import org.acme.application.ports.out.LoadRecentArticlesPort;
 import org.acme.application.ports.out.SaveArticlePort;
 import org.acme.application.ports.out.SaveFavoritePort;
 import org.acme.application.ports.out.UpdateArticlePort;
-
-import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @ApplicationScoped

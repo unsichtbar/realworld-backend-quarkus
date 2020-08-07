@@ -1,9 +1,9 @@
 package org.acme.application.services.comment;
 
-import org.acme.application.model.Comment;
-import org.acme.application.ports.out.LoadCommentPort;
 import java.util.ArrayList;
 import java.util.Collection;
+import org.acme.application.model.Comment;
+import org.acme.application.ports.out.LoadCommentPort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
